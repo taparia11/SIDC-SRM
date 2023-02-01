@@ -1,13 +1,15 @@
 import React from 'react'
-
+import logo from "../Assets/logo.jpg"
 const Navbar = () => {
   return (
     <>
     <header id="header" className="fixed-top">
     <div className="container d-flex align-items-center">
 
+      <a href="/" className="logo me-auto me-lg-0">
+        <img src={logo} alt="logo" className="img-fluid"/>
+        </a>
       <h1 className="logo me-auto"><a href="/"><span>CI</span>AP</a></h1>
-      {/* <a href="index.html" className="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" className="img-fluid"></a> */}
 
       <nav id="navbar" className="navbar order-last order-lg-0">
         <ul>

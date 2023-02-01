@@ -3,7 +3,7 @@ import React,{useEffect} from 'react'
 
 const Home = (props) => {
     useEffect(() => {
-        document.title = `${props.titleChange} - SIDC`;
+        document.title = `${props.titleChange} - CIAP`;
         //eslint-disable-next-line
     }, [])
   return (
