@@ -20,8 +20,13 @@ const Ps = (props) => {
 
       </div>
     </section>
-    <div className='container' style={{textAlign:'center'}}> <br /><br /><br /><br /><br /><br /><br />
-        <h1>Welcome to EVENTS 2021</h1> <br /><br /><br /><br /><br /><br />
+    
+    <div className='container'> <br /><br />
+    <ul style={{listStyle:"none"}}>
+      <li><b>1.</b> Organized a Webinar on <b> “Successful Patents by Indian Researchers” </b>for <b> WORLD IP DAY, 26 APRIL,2021</b>.</li>
+      <li><b>2.</b> Presented a Webinar on “Creating & Developing a Tech Start-up” for Department of EIE, Velammal Engineering College on 21st Aug, 2021.</li>
+      </ul> 
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />     
     </div>
     </>
   )

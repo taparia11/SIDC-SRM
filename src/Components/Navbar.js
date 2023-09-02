@@ -23,7 +23,7 @@ const Navbar = () => {
               <li><a href="gpl">GRANTED PATENTS LIST</a></li>
             </ul>
           </li>
-          <li><a href="message">MESSAGE</a></li>
+          <li><a href="pschool">PATENT SCHOOL</a></li>
           <li className="dropdown"><a href="/"><span>EVENTS</span> <i className="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="events2021">2021</a></li>

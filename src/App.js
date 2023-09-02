@@ -14,7 +14,7 @@ import Ps from './Components/Ps';
 import Dwps from './Components/Dwps';
 import Ywps from './Components/Ywps';
 import Gpl from './Components/Gpl';
-import Message from './Components/Message';
+import Pschool from './Components/Pschool';
 import News from './Components/News';
 import Uevents from './Components/Uevents';
 import E2021 from './Components/E2021';
@@ -33,7 +33,7 @@ function App() {
           <Route exact path='/dwps' element={<Dwps titleChange='DEPARTMENT WISE PATENT STATISTICS'/>} />
           <Route exact path='/ywps' element={<Ywps titleChange='YEAR WISE PATENT STATISTICS'/>} />
           <Route exact path='/gpl' element={<Gpl titleChange='GRANTED PATENTS LIST'/>} />
-          <Route exact path='/message' element={<Message titleChange='Message' />} />
+          <Route exact path='/pschool' element={<Pschool titleChange='PATENT SCHOOL' />} />
           <Route exact path='/events2021' element={<E2021 titleChange='EVENTS 2021' />} />
           <Route exact path='/events2022' element={<E2022 titleChange='EVENTS 2022' />} />
           <Route exact path='/upcomingevents' element={<Uevents titleChange='UPCOMING EVENTS' />} />

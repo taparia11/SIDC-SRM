@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+.buttondownload{
+  position: relative;
+  right: -4px;
+  border: 0;
+  padding: 0 20px;
+  background: #20558a;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 4px 4px 4px 4px
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
